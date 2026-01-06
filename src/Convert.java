@@ -1,6 +1,6 @@
 public class Convert {
         public static void main (String[] args){
-            double temperaturaEmCelsius = 29.2;
+            double temperaturaEmCelsius = 22.2;
             double temperaturaEmFahrenheit =(temperaturaEmCelsius * 1.8) + 32;
             String mensagem = String.format("A temperatura de %f Celsius é equivalente a %f Fahrenheit", temperaturaEmCelsius, temperaturaEmFahrenheit);
             System.out.println(mensagem);
